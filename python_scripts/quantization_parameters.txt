@@ -1,0 +1,21 @@
+Layer: sequential/dense/MatMul
+  Input scale: 2.9606902599334717, zero point: 78
+  Weight scale: 0.005885533522814512, zero point: 0
+  Output scale: 0.16240793466567993, zero point: -128
+  Overall scale: 0.107293039560318
+  Multiplier: 1843280384, Shift: 34
+
+Layer: sequential/dense_1/MatMul
+  Input scale: 0.16240793466567993, zero point: -128
+  Weight scale: 0.004629411268979311, zero point: 0
+  Output scale: 0.5066581964492798, zero point: -128
+  Overall scale: 0.0014839454088360071
+  Multiplier: 1631615232, Shift: 40
+
+Layer: sequential/dense_2/MatMul
+  Input scale: 0.5066581964492798, zero point: -128
+  Weight scale: 0.0015172776766121387, zero point: 0
+  Output scale: 0.8708227872848511, zero point: 59
+  Overall scale: 0.0008827756973914802
+  Multiplier: 1941244288, Shift: 41
+
